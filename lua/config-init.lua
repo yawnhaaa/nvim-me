@@ -28,3 +28,6 @@ vim.api.nvim_set_keymap('n', '<Space>2', '<Cmd>normal! i## <CR>', { noremap = tr
 vim.api.nvim_set_keymap('n', '<Space>3', '<Cmd>normal! i### <CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Space>4', '<Cmd>normal! i#### <CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Space>5', '<Cmd>normal! i##### <CR>', { noremap = true, silent = true })
+
+-- coc 配置
+vim.api.nvim_set_keymap("i", "<TAB>", 'pumvisible() ? coc#_select_confirm() : v:lua.check_back_space() ? "<TAB>" : coc#refresh()', { expr = true, noremap = true })
