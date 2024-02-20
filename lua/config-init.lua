@@ -16,3 +16,15 @@ vim.wo.cursorline = true
 -- 把空格显示成一个点
 vim.o.list = true
 vim.o.listchars = "space:·"
+-- 搜索结果不高亮显示
+vim.o.hlsearch = false
+
+-- 设置 leader
+vim.g.mapleader = ' '
+
+-- md快速标题
+vim.api.nvim_set_keymap('n', '<Space>1', '<Cmd>normal! i# <CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Space>2', '<Cmd>normal! i## <CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Space>3', '<Cmd>normal! i### <CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Space>4', '<Cmd>normal! i#### <CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Space>5', '<Cmd>normal! i##### <CR>', { noremap = true, silent = true })
