@@ -22,6 +22,9 @@ vim.o.hlsearch = false
 -- 设置 leader
 vim.g.mapleader = ' '
 
+-- 隐藏文件配置
+vim.g.NERDTreeShowHidden = 1
+
 -- md快速标题
 vim.api.nvim_set_keymap('n', '<Space>1', '<Cmd>normal! i# <CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Space>2', '<Cmd>normal! i## <CR>', { noremap = true, silent = true })
