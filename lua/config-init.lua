@@ -2,9 +2,9 @@
 vim.g.encoding = "utf-8"
 vim.o.fileencoding = "utf-8"
 -- 设置缩进选项
-vim.opt.shiftwidth = 4  -- 设置缩进宽度为 4 个空格
-vim.opt.tabstop = 4     -- 设置 Tab 键的宽度为 4 个空格
-vim.opt.softtabstop = 4 -- 设置在编辑时使用的空格数，按退格键时会删除这些空格数，而不是一个一个删除
+vim.opt.shiftwidth = 2  -- 设置缩进宽度为 4 个空格
+vim.opt.tabstop = 2     -- 设置 Tab 键的宽度为 4 个空格
+vim.opt.softtabstop = 2 -- 设置在编辑时使用的空格数，按退格键时会删除这些空格数，而不是一个一个删除
 vim.opt.expandtab = true -- 将 Tab 键转换为空格
 -- 光标移动的时候始终保持上下左右至少有 8 个空格的间隔
 vim.o.scrolloff = 8
