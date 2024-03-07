@@ -5,6 +5,3 @@ require("lazynvim-init")
 
 -- ./lua/config-init.lua
 require("config-init")
-
--- ./lua/map-init.lua
-require("map-init")
